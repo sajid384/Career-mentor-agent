@@ -1,7 +1,7 @@
 import google.generativeai as genai
 import chainlit as cl
 
-genai.configure(api_key="AIzaSyB8cvXddzU0gNdfM0DWsV-bFc3BzVB0V_Y")
+genai.configure(api_key="GEMINI-API-KEY")
 
 class OpenAIWrapper:
     @staticmethod
